@@ -1230,6 +1230,14 @@ h3 {
     margin: 6px 0;
 }
 
+.trivia-list > li {
+    margin-bottom: 18px;
+}
+
+.trivia-list > li:last-child {
+    margin-bottom: 0;
+}
+
 /* 모바일 */
 
 @media (max-width:768px) {
