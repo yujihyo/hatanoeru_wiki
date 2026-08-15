@@ -407,9 +407,10 @@ h3 {
 }
 
 .char-title1 {
-  background: #f9f5e9;
+  background: #555;
   text-align: center;
   padding: 10px;
+  color: #fff6f3;
 }
 
 .char-title2 {
@@ -474,33 +475,11 @@ h3 {
 
 .info-label1 {
   width: 28%;
-  background: #d2d2d2;
+  background: #555;
   padding: 8px;
-  text-align: center;
-  color: #2d2d2d;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.info-label2 {
-  width: 28%;
-  background: #c8c8c8;
-  padding: 8px;
-  text-align: center;
-  color: #373737;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.info-label3 {
-  width: 28%;
-  background: #FFFEF0;
-  padding: 8px;
-  text-align: center;
-  color: #000;
   font-weight: bold;
+  text-align: center;
+  color: #fff6f3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -526,6 +505,16 @@ h3 {
   font-weight: bold;
   padding: 8px;
   background: #bb4052;
+  color: #fff6f3;
+  border-top: 1px solid #b5b5b5;
+}
+
+.info-more1 summary {
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px;
+  background: #555;
   color: #fff6f3;
   border-top: 1px solid #b5b5b5;
 }
